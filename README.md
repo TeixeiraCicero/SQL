@@ -10,8 +10,7 @@
 
 ### No projeto temos, Atribuição, Colaborador, Departamento, Dependente, Endereço, Papel, Projeto, Telefone
 ### Alguns dos relatorios importantes são
-
-#### ```
+```
 #### SELECT COLAB.NOME AS COLAB_NOME, DEP.NOME AS NOME_DEP, DEP.DATA_NASCIMENTO
 #### FROM BRH.COLABORADOR COLAB
 #### JOIN BRH.DEPENDENTE DEP
@@ -144,7 +143,6 @@
 #### FROM BRH.ATRIBUICAO ATRIB
 #### GROUP BY ATRIB.COLABORADOR
 #### HAVING COUNT(ATRIB.PROJETO) = (SELECT COUNT(*) FROM BRH.PROJETO);
-#### ```
 
 ### Algumas Procedures e Functions relacionadas ao projeto BRH
 
@@ -255,4 +253,5 @@
    #### P_NASCIMENTO DATE := TO_DATE('03-07-1961','DD-MM-YYYY');
 #### BEGIN
  #### DBMS_OUTPUT.PUT_LINE(BRH.CALCULA_IDADE(P_NASCIMENTO) );
-#### END;
+ #### END;
+```
