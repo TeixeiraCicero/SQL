@@ -1,14 +1,14 @@
-# BRH 
+# {c:blue}BRH {/c}
 
-  
+ 
 
 ## O ID do projeto BRH é o ID 4  
-## O projeto atualmente contém 3 colaboradores 
+## O projeto atualmente contém  {c:green}3{/c} colaboradores 
 ## O projeto se iniciou na data 01/05/2022 
 ## Ainda está em andamento 
 ## Sem data prevista para término 
 
-### No projeto temos, Atribuição, Colaborador, Departamento, Dependente, Endereço, Papel, Projeto, Telefone
+### No projeto temos,  {c:yellow}Atribuição, Colaborador, Departamento, Dependente, Endereço, Papel, Projeto, Telefone{/c}
 ### Alguns dos relatorios importantes são
 ```
 SELECT COLAB.NOME AS COLAB_NOME, DEP.NOME AS NOME_DEP, DEP.DATA_NASCIMENTO
@@ -145,7 +145,7 @@ HAVING COUNT(ATRIB.PROJETO) = (SELECT COUNT(*) FROM BRH.PROJETO);
 
 ```
 
-### Algumas Procedures e Functions relacionadas ao projeto BRH
+### Algumas  {c:purple}Procedures{/c} e  {c:gold}Functions{/c} relacionadas ao projeto BRH
 
 ```
 
