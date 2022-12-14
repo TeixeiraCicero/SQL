@@ -135,7 +135,7 @@ HAVING COUNT(ATRIB.PROJETO) = (SELECT COUNT(*) FROM BRH.PROJETO);
 
 ```
 
-### Algumas Procedures e Functions relacionadas ao projeto BRH
+### Algumas Procedures e Functions
 
 ```
 
